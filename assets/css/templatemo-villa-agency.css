@@ -1184,7 +1184,7 @@ Properties Style
 }
 
 .work__item {
-  height: 210px !important;
+  height: 210px;
   width: calc(33.3% - 10px);
   margin-right: 10px;
   margin-bottom: 10px;
@@ -1207,7 +1207,7 @@ background-position: center;
   bottom: 0 !important;
 }
 .work__item.large__item {
-  height: 430px !important;
+  height: 430px;
   width: calc(33.33% - 10px);
 }
 .work__item.wide__item {
@@ -1650,13 +1650,32 @@ body {
     width: calc(50% - 10px);
   }
 
+.work {
+	height: 2350px;
+}
+.work__item__hover{
+	display: none;
+}
   .work__item {
     width: calc(50% - 10px);
   }
-
+  
   .work__item.large__item {
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
+	    height: 130px;
+
   }
+  
+   .work__item.small__item {
+    width: calc(100% - 10px);
+	    height: 130px;
+
+  }
+  
+  .section-heading h2 {
+	  font-size: 24px;
+  }
+  
   .header-area .main-nav .nav li:last-child {
     display: none;
   }
